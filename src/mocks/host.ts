@@ -5,6 +5,12 @@ export const hostsMock: HostConfig[] = [
     id: "1",
     name: "Tech Store",
     host: "localhost:3000",
+    seo: {
+      title: "OminoFlow | Store",
+      description:
+        "OminiFlow é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+      themeColor: "#1240D3",
+    },
     theme: {
       main50: "#EFF0FE",
       main100: "#D8DBFE",
@@ -38,6 +44,12 @@ export const hostsMock: HostConfig[] = [
     id: "2",
     name: "Fashion Bloom",
     host: "fashion.localhost:3000",
+    seo: {
+      title: "Fashion Bloom | Store",
+      description:
+        "Fashion Bloom é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+      themeColor: "#A80C40",
+    },
     theme: {
       main50: "#FEECEF",
       main100: "#FED3D9",
@@ -71,6 +83,12 @@ export const hostsMock: HostConfig[] = [
     id: "3",
     name: "OrangeStore",
     host: "orange.localhost:3000",
+    seo: {
+      title: "OrangeStore | Store",
+      description:
+        "OrangeStore é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+      themeColor: "#7A4717",
+    },
     theme: {
       main50: "#FDEEE7",
       main100: "#FCD8C6",

@@ -2,6 +2,11 @@ export interface HostConfig {
   id: string;
   name: string;
   host: string;
+  seo: {
+    title: string;
+    description: string;
+    themeColor: string;
+  };
   theme: {
     main50: string;
     main100: string;
