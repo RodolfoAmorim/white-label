@@ -32,7 +32,9 @@ export interface HostConfig {
     gray950: string;
   };
   assets: {
-    logo: string;
     favicon: string;
+    banners: {
+      home: string[];
+    };
   };
 }

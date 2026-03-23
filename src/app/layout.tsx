@@ -3,10 +3,13 @@ import { Nunito_Sans as NunitoSans } from "next/font/google";
 import { headers } from "next/headers";
 import { getHostConfig } from "@/services/host-service";
 import { CSSProperties } from "react";
+import { Header } from "@/components/layout/header";
+import { Footer } from "@/components/layout/footer";
 import "./globals.css";
 
 const nunitoSans = NunitoSans({
-  variable: "--font-geist-sans",
+  variable: "--font-nunito-sans",
+  display: "swap",
   subsets: ["latin"],
 });
 
@@ -24,7 +27,6 @@ export async function generateMetadata(): Promise<Metadata> {
     openGraph: {
       title: host.seo.title,
       description: host.seo.description,
-      images: [host.assets.logo],
     },
   };
 }
@@ -81,7 +83,11 @@ export default async function RootLayout({
       className={`${nunitoSans.variable} h-full antialiased`}
       style={dynamicStyles}
     >
-      <body className="flex min-h-full flex-col">{children}</body>
+      <body className="flex min-h-svh flex-col">
+        <Header name={host.name} />
+        {children}
+        <Footer name={host.name} />
+      </body>
     </html>
   );
 }

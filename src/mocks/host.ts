@@ -3,12 +3,12 @@ import { HostConfig } from "@/types/host";
 export const hostsMock: HostConfig[] = [
   {
     id: "1",
-    name: "Tech Store",
+    name: "OmniFlow",
     host: "localhost:3000",
     seo: {
-      title: "OminoFlow | Store",
+      title: "OmniFlow | Store",
       description:
-        "OminiFlow é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+        "OmniFlow é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
       themeColor: "#1240D3",
     },
     theme: {
@@ -36,18 +36,24 @@ export const hostsMock: HostConfig[] = [
       gray950: "#111114",
     },
     assets: {
-      logo: "/logos/tech-store.svg",
-      favicon: "/favicons/tech.ico",
+      favicon: "/favicons/omini.ico",
+      banners: {
+        home: [
+          "/banners/omini/banner.png",
+          "/banners/omini/banner.png",
+          "/banners/omini/banner.png",
+        ],
+      },
     },
   },
   {
     id: "2",
-    name: "Fashion Bloom",
+    name: "FashionFlow",
     host: "fashion.localhost:3000",
     seo: {
-      title: "Fashion Bloom | Store",
+      title: "FashionFlow | Store",
       description:
-        "Fashion Bloom é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+        "FashionFlow é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
       themeColor: "#A80C40",
     },
     theme: {
@@ -75,18 +81,20 @@ export const hostsMock: HostConfig[] = [
       gray950: "#111114",
     },
     assets: {
-      logo: "/logos/fashion-bloom.svg",
       favicon: "/favicons/fashion.ico",
+      banners: {
+        home: ["/banners/fashion/banner.png"],
+      },
     },
   },
   {
     id: "3",
-    name: "OrangeStore",
+    name: "OrangeFlow",
     host: "orange.localhost:3000",
     seo: {
-      title: "OrangeStore | Store",
+      title: "OrangeFlow | Store",
       description:
-        "OrangeStore é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
+        "OrangeFlow é uma plataforma de e-commerce que oferece uma experiência de compra personalizada e eficiente para os clientes, com recursos avançados de gerenciamento de produtos, pedidos e atendimento ao cliente.",
       themeColor: "#7A4717",
     },
     theme: {
@@ -115,8 +123,10 @@ export const hostsMock: HostConfig[] = [
       gray950: "#111114",
     },
     assets: {
-      logo: "/logos/orange-store.svg",
       favicon: "/favicons/orange.ico",
+      banners: {
+        home: ["/banners/orange/banner.png"],
+      },
     },
   },
 ];

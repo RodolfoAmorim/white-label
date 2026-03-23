@@ -1,9 +1,14 @@
 @import "tailwindcss";
 
 @theme inline {
+  /* fonts */
   --font-sans: var(--font-nunito-sans);
 
+  /* text */
+  --text-xxs: 0.625rem;
+
   /* colors */
+  --color-lime-*: initial;
   --color-main-50: var(--color-main-50);
   --color-main-100: var(--color-main-100);
   --color-main-200: var(--color-main-200);
@@ -26,17 +31,61 @@
   --color-gray-800: var(--color-gray-800);
   --color-gray-900: var(--color-gray-900);
   --color-gray-950: var(--color-gray-950);
+  --color-success-500: #25f743;
+  --color-success-700: #05991a;
+
+  /* tracking */
+  --tracking-tighter: -0.5px;
+  --tracking-tight: -0.25px;
+  --tracking-light: -0.15px;
+
+  /* leading */
+  --leading-tighter: 1.15;
 }
 
-/* @media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
+@layer utilities {
+  .text-xxs {
+    font-size: var(--text-xxs);
   }
-} */
+
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+@layer components {
+  .card {
+    @apply flex w-full flex-col items-start gap-4 rounded-3xl bg-white p-4;
+  }
+
+  .card h3 {
+    @apply text-lg leading-tight font-bold tracking-tight text-gray-800;
+  }
+
+  .see-more {
+    @apply text-main-600 text-sm leading-tight tracking-tight;
+  }
+
+  .footer-group-title {
+    @apply text-center text-lg leading-tight font-bold;
+  }
+
+  .footer-links-group {
+    @apply w-full space-y-3;
+  }
+
+  .footer-links-group li {
+    @apply text-main-200 text-sm leading-tight tracking-wide;
+  }
+}
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--white);
+  color: var(--color-gray-700);
   font-family: var(--font-sans), Helvetica, sans-serif;
 }
