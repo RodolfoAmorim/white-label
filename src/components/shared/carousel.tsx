@@ -72,7 +72,7 @@ export function Carousel({
           <button
             onClick={scrollPrev}
             aria-label="Anterior"
-            className="text-main-500 absolute top-1/2 left-4 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-xl bg-white opacity-100 shadow-md transition-all"
+            className="text-main-500 absolute top-1/2 -left-4 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-xl bg-white opacity-100 shadow-md transition-all"
           >
             <ChevronLeftIcon size={24} />
           </button>
@@ -80,7 +80,7 @@ export function Carousel({
           <button
             onClick={scrollNext}
             aria-label="Próximo"
-            className="text-main-500 absolute top-1/2 right-4 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-xl bg-white opacity-100 shadow-md transition-all"
+            className="text-main-500 absolute top-1/2 -right-4 z-10 flex size-8 -translate-y-1/2 items-center justify-center rounded-xl bg-white opacity-100 shadow-md transition-all"
           >
             <ChevronRightIcon size={24} />
           </button>

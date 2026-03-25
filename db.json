@@ -1,0 +1,2747 @@
+{
+  "products": [
+    {
+      "id": "806d8e18-194c-4155-9bad-55aa4a4d2ad7",
+      "sku": "PROD-001",
+      "slug": "produto-1",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 1 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 1 da categoria Games.",
+        "short_description": "Resumo do produto 1.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 100,
+        "current_price": 80,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 13.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 10,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.0,
+        "review_count": 100
+      }
+    },
+    {
+      "id": "f010d136-02d0-4f39-b1a0-22f4f24705de",
+      "sku": "PROD-002",
+      "slug": "produto-2",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 2 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 2 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 2.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 150,
+        "current_price": 130,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 21.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 11,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.1,
+        "review_count": 110
+      }
+    },
+    {
+      "id": "2c468b36-bb81-4bf2-869a-f7e1df09420d",
+      "sku": "PROD-003",
+      "slug": "produto-3",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 3 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 3 da categoria Casa.",
+        "short_description": "Resumo do produto 3.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 200,
+        "current_price": 180,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 30.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 12,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.2,
+        "review_count": 120
+      }
+    },
+    {
+      "id": "386b2f69-cffc-4192-8858-3331f5c5c1b6",
+      "sku": "PROD-004",
+      "slug": "produto-4",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 4 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 4 da categoria Celular.",
+        "short_description": "Resumo do produto 4.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 250,
+        "current_price": 230,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 38.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 13,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.3,
+        "review_count": 130
+      }
+    },
+    {
+      "id": "85e32b5e-9e5f-4f9f-a7fe-df059ea77021",
+      "sku": "PROD-005",
+      "slug": "produto-5",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 5 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 5 da categoria Acessórios.",
+        "short_description": "Resumo do produto 5.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 300,
+        "current_price": 280,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 46.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 14,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.4,
+        "review_count": 140
+      }
+    },
+    {
+      "id": "635bdd8d-7859-42cd-9d8c-5d38333c85a5",
+      "sku": "PROD-006",
+      "slug": "produto-6",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 6 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 6 da categoria Games.",
+        "short_description": "Resumo do produto 6.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 350,
+        "current_price": 330,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 55.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 15,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.5,
+        "review_count": 150
+      }
+    },
+    {
+      "id": "915d4200-3d89-4d6b-bf82-818d1052d30e",
+      "sku": "PROD-007",
+      "slug": "produto-7",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 7 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 7 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 7.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 400,
+        "current_price": 380,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 63.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 16,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.6,
+        "review_count": 160
+      }
+    },
+    {
+      "id": "1b7a023f-2069-4240-9e7d-5f0634f4b0da",
+      "sku": "PROD-008",
+      "slug": "produto-8",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 8 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 8 da categoria Casa.",
+        "short_description": "Resumo do produto 8.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 450,
+        "current_price": 430,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 71.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 17,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.7,
+        "review_count": 170
+      }
+    },
+    {
+      "id": "128eb25b-99c0-4b28-bed5-a6af1673b181",
+      "sku": "PROD-009",
+      "slug": "produto-9",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 9 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 9 da categoria Celular.",
+        "short_description": "Resumo do produto 9.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 500,
+        "current_price": 480,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 80.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 18,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.8,
+        "review_count": 180
+      }
+    },
+    {
+      "id": "2e3ca15c-a986-429e-97fa-e13b090f8934",
+      "sku": "PROD-010",
+      "slug": "produto-10",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 10 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 10 da categoria Acessórios.",
+        "short_description": "Resumo do produto 10.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 550,
+        "current_price": 530,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 88.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 19,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.9,
+        "review_count": 190
+      }
+    },
+    {
+      "id": "39f3543a-01a1-4ae9-a294-7b0e5c667538",
+      "sku": "PROD-011",
+      "slug": "produto-11",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 11 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 11 da categoria Games.",
+        "short_description": "Resumo do produto 11.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 600,
+        "current_price": 580,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 96.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 20,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.0,
+        "review_count": 200
+      }
+    },
+    {
+      "id": "11be493c-28b1-4d7f-a92d-06f7128fb118",
+      "sku": "PROD-012",
+      "slug": "produto-12",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 12 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 12 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 12.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 650,
+        "current_price": 630,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 105.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 21,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.1,
+        "review_count": 210
+      }
+    },
+    {
+      "id": "dea89519-02f7-47b9-baac-cca2ebfef6dc",
+      "sku": "PROD-013",
+      "slug": "produto-13",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 13 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 13 da categoria Casa.",
+        "short_description": "Resumo do produto 13.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 700,
+        "current_price": 680,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 113.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 22,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.2,
+        "review_count": 220
+      }
+    },
+    {
+      "id": "b118099c-a483-444a-b51d-864ffdfceb20",
+      "sku": "PROD-014",
+      "slug": "produto-14",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 14 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 14 da categoria Celular.",
+        "short_description": "Resumo do produto 14.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 750,
+        "current_price": 730,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 121.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 23,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.3,
+        "review_count": 230
+      }
+    },
+    {
+      "id": "c96a995c-360f-4590-bc2d-ed3d8b16df31",
+      "sku": "PROD-015",
+      "slug": "produto-15",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 15 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 15 da categoria Acessórios.",
+        "short_description": "Resumo do produto 15.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 800,
+        "current_price": 780,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 130.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 24,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.4,
+        "review_count": 240
+      }
+    },
+    {
+      "id": "2c3aff80-52a5-409d-92ec-4275d29fe203",
+      "sku": "PROD-016",
+      "slug": "produto-16",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 16 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 16 da categoria Games.",
+        "short_description": "Resumo do produto 16.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 850,
+        "current_price": 830,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 138.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 25,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.5,
+        "review_count": 250
+      }
+    },
+    {
+      "id": "0926c341-68f9-4c89-a5a7-6493d7f30dbb",
+      "sku": "PROD-017",
+      "slug": "produto-17",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 17 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 17 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 17.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 900,
+        "current_price": 880,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 146.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 26,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.6,
+        "review_count": 260
+      }
+    },
+    {
+      "id": "4e0e7c66-ff70-4185-a5d4-d1b73aef7432",
+      "sku": "PROD-018",
+      "slug": "produto-18",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 18 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 18 da categoria Casa.",
+        "short_description": "Resumo do produto 18.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 950,
+        "current_price": 930,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 155.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 27,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.7,
+        "review_count": 270
+      }
+    },
+    {
+      "id": "5308b30c-87a8-4153-a060-cfe20ece9929",
+      "sku": "PROD-019",
+      "slug": "produto-19",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 19 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 19 da categoria Celular.",
+        "short_description": "Resumo do produto 19.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1000,
+        "current_price": 980,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 163.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 28,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.8,
+        "review_count": 280
+      }
+    },
+    {
+      "id": "db3f1ccf-0f70-47aa-ac05-4c036e3a611c",
+      "sku": "PROD-020",
+      "slug": "produto-20",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 20 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 20 da categoria Acessórios.",
+        "short_description": "Resumo do produto 20.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1050,
+        "current_price": 1030,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 171.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 29,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.9,
+        "review_count": 290
+      }
+    },
+    {
+      "id": "b6a12153-fad8-40da-bdfe-421094f92fc9",
+      "sku": "PROD-021",
+      "slug": "produto-21",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 21 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 21 da categoria Games.",
+        "short_description": "Resumo do produto 21.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1100,
+        "current_price": 1080,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 180.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 30,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.0,
+        "review_count": 300
+      }
+    },
+    {
+      "id": "74a80c19-142d-4800-9c8e-65ade8bc1e1a",
+      "sku": "PROD-022",
+      "slug": "produto-22",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 22 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 22 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 22.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1150,
+        "current_price": 1130,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 188.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 31,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.1,
+        "review_count": 310
+      }
+    },
+    {
+      "id": "ba1d3ed0-a4ad-4223-b1ac-fd3d1ac46c29",
+      "sku": "PROD-023",
+      "slug": "produto-23",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 23 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 23 da categoria Casa.",
+        "short_description": "Resumo do produto 23.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1200,
+        "current_price": 1180,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 196.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 32,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.2,
+        "review_count": 320
+      }
+    },
+    {
+      "id": "6e66bda2-8abc-46aa-a63a-ac291f225b24",
+      "sku": "PROD-024",
+      "slug": "produto-24",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 24 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 24 da categoria Celular.",
+        "short_description": "Resumo do produto 24.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1250,
+        "current_price": 1230,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 205.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 33,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.3,
+        "review_count": 330
+      }
+    },
+    {
+      "id": "56a010bf-fcb4-43b3-8acf-98c5dc761d74",
+      "sku": "PROD-025",
+      "slug": "produto-25",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 25 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 25 da categoria Acessórios.",
+        "short_description": "Resumo do produto 25.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1300,
+        "current_price": 1280,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 213.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 34,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.4,
+        "review_count": 340
+      }
+    },
+    {
+      "id": "b1cc2964-dd37-4b7b-bce6-43810b30dad6",
+      "sku": "PROD-026",
+      "slug": "produto-26",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 26 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 26 da categoria Games.",
+        "short_description": "Resumo do produto 26.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1350,
+        "current_price": 1330,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 221.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 35,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.5,
+        "review_count": 350
+      }
+    },
+    {
+      "id": "e11d7004-859e-4f4f-9c16-1ce9d8f1a87e",
+      "sku": "PROD-027",
+      "slug": "produto-27",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 27 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 27 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 27.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1400,
+        "current_price": 1380,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 230.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 36,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.6,
+        "review_count": 360
+      }
+    },
+    {
+      "id": "56e903a4-9c1c-4fc9-bf2c-4490ee38574f",
+      "sku": "PROD-028",
+      "slug": "produto-28",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 28 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 28 da categoria Casa.",
+        "short_description": "Resumo do produto 28.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1450,
+        "current_price": 1430,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 238.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 37,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.7,
+        "review_count": 370
+      }
+    },
+    {
+      "id": "8c96da0b-a25e-4d4f-a61b-1bd2a3a1d10d",
+      "sku": "PROD-029",
+      "slug": "produto-29",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 29 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 29 da categoria Celular.",
+        "short_description": "Resumo do produto 29.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1500,
+        "current_price": 1480,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 246.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 38,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.8,
+        "review_count": 380
+      }
+    },
+    {
+      "id": "dc8688ca-4fa6-40c7-aa0a-aa8d3ad6618b",
+      "sku": "PROD-030",
+      "slug": "produto-30",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 30 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 30 da categoria Acessórios.",
+        "short_description": "Resumo do produto 30.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1550,
+        "current_price": 1530,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 255.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 39,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.9,
+        "review_count": 390
+      }
+    },
+    {
+      "id": "073432e5-5a85-426c-9312-34b8436ff760",
+      "sku": "PROD-031",
+      "slug": "produto-31",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 31 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 31 da categoria Games.",
+        "short_description": "Resumo do produto 31.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1600,
+        "current_price": 1580,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 263.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 40,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.0,
+        "review_count": 400
+      }
+    },
+    {
+      "id": "f5522517-1de0-4542-9c31-c9fe3b962beb",
+      "sku": "PROD-032",
+      "slug": "produto-32",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 32 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 32 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 32.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1650,
+        "current_price": 1630,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 271.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 41,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.1,
+        "review_count": 410
+      }
+    },
+    {
+      "id": "dac0bee6-7421-4a7f-8b8d-2c7bc7b1ceb0",
+      "sku": "PROD-033",
+      "slug": "produto-33",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 33 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 33 da categoria Casa.",
+        "short_description": "Resumo do produto 33.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1700,
+        "current_price": 1680,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 280.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 42,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.2,
+        "review_count": 420
+      }
+    },
+    {
+      "id": "7f988091-df6f-4d26-b946-1080bc854e18",
+      "sku": "PROD-034",
+      "slug": "produto-34",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 34 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 34 da categoria Celular.",
+        "short_description": "Resumo do produto 34.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1750,
+        "current_price": 1730,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 288.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 43,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.3,
+        "review_count": 430
+      }
+    },
+    {
+      "id": "70a72469-8fab-4415-be3c-4adfe97e1933",
+      "sku": "PROD-035",
+      "slug": "produto-35",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 35 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 35 da categoria Acessórios.",
+        "short_description": "Resumo do produto 35.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1800,
+        "current_price": 1780,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 296.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 44,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.4,
+        "review_count": 440
+      }
+    },
+    {
+      "id": "11e8d97a-1f2a-44d5-9907-9a533ec1cca6",
+      "sku": "PROD-036",
+      "slug": "produto-36",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 36 - Games",
+        "subtitle": "Games",
+        "description": "Descrição completa do produto 36 da categoria Games.",
+        "short_description": "Resumo do produto 36.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Sony",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1850,
+        "current_price": 1830,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 305.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 45,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Games"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Games"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.5,
+        "review_count": 450
+      }
+    },
+    {
+      "id": "2074c9d8-911d-492a-998e-5aed5f5dd69a",
+      "sku": "PROD-037",
+      "slug": "produto-37",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 37 - Tecnologia",
+        "subtitle": "Tecnologia",
+        "description": "Descrição completa do produto 37 da categoria Tecnologia.",
+        "short_description": "Resumo do produto 37.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Samsung",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1900,
+        "current_price": 1880,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 313.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 46,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Tecnologia"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Tecnologia"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.6,
+        "review_count": 460
+      }
+    },
+    {
+      "id": "82c1e592-dd23-416d-a8e9-78409be8e529",
+      "sku": "PROD-038",
+      "slug": "produto-38",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 38 - Casa",
+        "subtitle": "Casa",
+        "description": "Descrição completa do produto 38 da categoria Casa.",
+        "short_description": "Resumo do produto 38.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Apple",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 1950,
+        "current_price": 1930,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 321.67,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 47,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Casa"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Casa"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.7,
+        "review_count": 470
+      }
+    },
+    {
+      "id": "a31e00ce-4116-4b9a-b4e7-2bb14f423998",
+      "sku": "PROD-039",
+      "slug": "produto-39",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 39 - Celular",
+        "subtitle": "Celular",
+        "description": "Descrição completa do produto 39 da categoria Celular.",
+        "short_description": "Resumo do produto 39.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "Dell",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 2000,
+        "current_price": 1980,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 330.0,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 48,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Celular"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Celular"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.8,
+        "review_count": 480
+      }
+    },
+    {
+      "id": "f594ec44-10de-4b80-8aa2-795798d70b1f",
+      "sku": "PROD-040",
+      "slug": "produto-40",
+      "status": "active",
+      "type": "physical",
+      "content": {
+        "title": "Produto 40 - Acessórios",
+        "subtitle": "Acessórios",
+        "description": "Descrição completa do produto 40 da categoria Acessórios.",
+        "short_description": "Resumo do produto 40.",
+        "images": [
+          {
+            "url": "",
+            "alt": "",
+            "is_main": true
+          },
+          {
+            "url": "",
+            "alt": "",
+            "is_main": false
+          }
+        ],
+        "brand": {
+          "name": "LG",
+          "logo": ""
+        }
+      },
+      "pricing": {
+        "currency": "BRL",
+        "base_price": 2050,
+        "current_price": 2030,
+        "discount": {
+          "percentage": 10,
+          "amount": 20,
+          "label": "10% OFF",
+          "expires_at": "2026-12-31T23:59:59Z"
+        },
+        "installments": {
+          "count": 6,
+          "amount": 338.33,
+          "has_interest": false
+        }
+      },
+      "inventory": {
+        "stock_quantity": 49,
+        "allow_backorder": false,
+        "manage_stock": true
+      },
+      "specifications": [
+        {
+          "key": "categoria",
+          "label": "Categoria",
+          "value": "Acessórios"
+        }
+      ],
+      "filters": {
+        "category": [
+          "Acessórios"
+        ],
+        "tags": [
+          "Popular",
+          "Promoção"
+        ],
+        "rating_avg": 4.9,
+        "review_count": 490
+      }
+    }
+  ],
+  "users": [
+    {
+      "id": "7990a4d0-e21a-45f8-b2ce-0e0205d0635f",
+      "name": "Rodolfo Amorim",
+      "email": "rodolfo@email.com",
+      "password": "12345678",
+      "cpf": "123.456.789-00",
+      "birth_date": "1996-05-14",
+      "phone": "+55 11 91234-5678",
+      "profile_image": "",
+      "address": {
+        "street": "Rua das Flores",
+        "number": "123",
+        "complement": "Apto 45",
+        "neighborhood": "Centro",
+        "city": "Osasco",
+        "state": "SP",
+        "zip_code": "06000-000",
+        "country": "Brasil"
+      },
+      "wishlist": []
+    }
+  ]
+}

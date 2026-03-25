@@ -20,7 +20,7 @@ export function ProductCard({
       variants: {
         layout: {
           default: "w-full p-2 bg-white rounded-2xl",
-          small: " justify-start gap-1",
+          small: " justify-start gap-1 xl:gap-2",
           medium: "w-40",
           large:
             "flex-col items-center text-center border-2 border-gray-100 bg-gray-50",
@@ -62,7 +62,9 @@ export function ProductCard({
           </div>
         )}
 
-        <p className="tracking-light font-bold text-gray-800 uppercase">
+        <p
+          className={`tracking-light font-bold text-gray-800 uppercase ${isSmall ? "text-xs" : "text-base"}`}
+        >
           R$ 168,<sup>00</sup>
         </p>
 

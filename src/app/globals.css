@@ -60,11 +60,11 @@
 
 @layer components {
   .card {
-    @apply flex w-full flex-col items-start gap-4 rounded-3xl bg-white p-4;
+    @apply flex flex-col items-start gap-4 rounded-3xl bg-white p-4;
   }
 
   .card h3 {
-    @apply text-lg leading-tight font-bold tracking-tight text-gray-800;
+    @apply text-lg leading-tight font-bold tracking-tight text-gray-800 xl:text-2xl;
   }
 
   .see-more {
@@ -72,7 +72,7 @@
   }
 
   .footer-group-title {
-    @apply text-center text-lg leading-tight font-bold;
+    @apply text-center text-lg leading-tight font-bold xl:text-left;
   }
 
   .footer-links-group {
@@ -80,8 +80,12 @@
   }
 
   .footer-links-group li {
-    @apply text-main-200 text-sm leading-tight tracking-wide;
+    @apply text-main-200 text-sm leading-tight tracking-wide xl:text-left;
   }
+}
+
+@utility container {
+  max-width: 80rem;
 }
 
 body {
